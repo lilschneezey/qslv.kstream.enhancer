@@ -1,0 +1,13 @@
+  kind: "Service"
+  apiVersion: "v1"
+  metadata:
+    name: "kafka-broker"
+  spec:
+    ports:
+      -
+        name: "kafka-broker"
+        protocol: "TCP"
+        port: 9092
+        targetPort: 9092
+        nodePort: 0
+  selector: {} 

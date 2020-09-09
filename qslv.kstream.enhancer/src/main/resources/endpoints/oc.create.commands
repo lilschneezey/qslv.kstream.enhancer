@@ -1,0 +1,4 @@
+ oc create -f kafka-endpoint.yml
+ oc create -f kafka-service.yml
+ oc create -f schema-endpoint.yml
+ oc create -f schema-service.yml

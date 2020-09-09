@@ -1,0 +1,13 @@
+  kind: "Endpoints"
+  apiVersion: "v1"
+  metadata:
+    name: "schema-registry" 
+  subsets: 
+    -
+      addresses:
+        -
+          ip: "192.168.1.77" 
+      ports:
+        -
+          port: 8081 
+          name: "schema-registry"
